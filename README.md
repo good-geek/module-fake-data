@@ -36,7 +36,7 @@ This will initiate the anonymization process and provide a detailed log of chang
 For improvements and customization, please contact: [My page](https://goodgeek.cc) or [Telegram](https://t.me/sarootua).
 
 <div align="center">
-  <strong>You can also support via MonoBank by clicking the button below. Thank you!</strong><br/>
+  <strong>If you find this module useful and would like to buy me a beer, just click the donate button below. Thank you!</strong><br/>
   <a href="https://send.monobank.ua/jar/4Zii5ZQYfg" target="_blank">
     <img src="https://community-openhab-org.s3.dualstack.eu-central-1.amazonaws.com/original/3X/5/3/539d11b64d92dc34977fd4f07e10bb1c4fc86edc.png" alt="Buy Me a Beer" style="width: 100px; height: 100px;" />
   </a>
