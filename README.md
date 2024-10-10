@@ -9,10 +9,23 @@ The **GoodGeek Fake Data** module for Magento 2 is designed to anonymize custome
 - **Automated Reindexing**: Ensures data remains up-to-date and consistent after anonymization.
 
 ## Install module via composer
-Use composer command
+- **Add Repository**
 
 ```bash
-composer require good-geek/module-fake-data
+composer config repositories.goodgeek-fake-data vcs https://github.com/good-geek/module-fake-data
+```
+- **Install**
+
+```bash
+composer require good-geek/module-fake-data:dev-main
+```
+- **Enable and compile**
+
+```bash
+php bin/magento module:enable GoodGeek_FakeData \
+&& php bin/magento setup:upgrade \
+&& php bin/magento setup:static-content:deploy -f \
+&& php bin/magento cache:clean
 ```
 
 ## Important: Database Backup
