@@ -7,9 +7,7 @@
     "magento/framework": "*",
     "fakerphp/faker": "*"
   },
-  "license": [
-    "Proprietary"
-  ],
+  "license": "proprietary",
   "authors": [
     {
       "name": "Olexander",
